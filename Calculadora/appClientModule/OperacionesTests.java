@@ -18,6 +18,7 @@ class OperacionesTests {
 	}
 
 	@Test
+	@DisplayName(value = "TestRestar -> Resultado al pasar 9-8=1.")
 	void testRestar() {
 		int o1 = 9;
 		 int o2 = 8;
